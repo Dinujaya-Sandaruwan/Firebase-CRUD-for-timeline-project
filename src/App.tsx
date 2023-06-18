@@ -1,10 +1,9 @@
-import Preview from './components/preview/Preview';
+import Form from './components/Form';
 
 function App() {
-
     return (
         <div className="App">
-            <Preview />
+            <Form />
         </div>
     );
 }
