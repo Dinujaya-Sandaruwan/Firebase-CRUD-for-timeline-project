@@ -10,7 +10,7 @@ const Form = () => {
 
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
-        // Perform form submission logic here
+        //  Perform form submission logic here
         console.log('Name:', name);
         console.log('Email:', email);
         console.log('Image:', image);
