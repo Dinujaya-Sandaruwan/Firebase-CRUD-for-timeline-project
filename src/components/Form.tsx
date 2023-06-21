@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FormControl, FormLabel, Input } from '@chakra-ui/react';
+import { FormControl, FormLabel, Input, Text } from '@chakra-ui/react';
 import { Button } from '@chakra-ui/button';
 import { Container } from '@chakra-ui/layout';
 
@@ -58,6 +58,7 @@ const Form = () => {
                 <Button mt={4} colorScheme="teal" type="submit">
                     Submit
                 </Button>
+                <Text>Webhook Testing Complete</Text>
             </form>
         </Container>
     );
