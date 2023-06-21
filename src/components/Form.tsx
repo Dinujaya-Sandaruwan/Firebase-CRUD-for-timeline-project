@@ -58,8 +58,7 @@ const Form = () => {
                 <Button mt={4} colorScheme="teal" type="submit">
                     Submit
                 </Button>
-                <Text>Webhook Testing Complete</Text>
-                <Text>Last</Text>
+                <Text>Cloudflare Pages Testing Complete</Text>
             </form>
         </Container>
     );
